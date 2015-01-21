@@ -1,0 +1,23 @@
+<html>
+<style>
+.textEff{
+ font-size: 1.2em;
+  font-face:calibri;
+}
+</style>
+<body class="textEff">
+<center>
+<img src="c:/TestApp/src/com/db/xan.jpg"><h1>Invitation</h1>
+<img src="c:/TestApp/src/com/db/happy-birthday.jpg" style="width:100px;height:100px">
+<p>Welcome <font color="blue">${firstName} ${lastName}.</font></p>
+<p>You are invited for the following event</p>
+<p>EventName : <font color="blue">${eventName}</font></p>
+
+<p>Address :<font color="blue"> ${streetName},${cityName},${zipCode}
+
+</font>
+
+</p>
+</center>
+</body>
+</html>
